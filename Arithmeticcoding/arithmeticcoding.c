@@ -1,4 +1,6 @@
-﻿#include <stdio.h>
+// Чалова Ксения Группа 932423
+
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <locale.h>
@@ -348,4 +350,5 @@ void main() {
     else {
         printf("Режим неправильный\n");
     }
+
 }
