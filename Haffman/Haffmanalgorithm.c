@@ -249,7 +249,7 @@ void main() {
             return 1;
         }
         int ch;
-        long fileSize = 0;
+        int fileSize = 0;
         while ((ch = fgetc(input)) != EOF) {
             symbolFrequency[ch]++;
             fileSize++;
@@ -279,4 +279,5 @@ void main() {
     }
 
 }
+
 
